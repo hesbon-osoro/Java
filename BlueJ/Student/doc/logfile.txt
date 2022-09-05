@@ -1,0 +1,71 @@
+Class documentation
+<---- javadoc command: ---->
+C:\Program Files\BlueJ\jdk\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+11
+-classpath
+C:\Program Files\BlueJ\lib\bluejcore.jar;C:\Program Files\BlueJ\lib\junit-4.11.jar;C:\Program Files\BlueJ\lib\hamcrest-core-1.3.jar;C:\Program Files\BlueJ\lib\lang-stride.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.base.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.controls.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.fxml.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.graphics.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.media.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.properties.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.swing.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.web.jar;C:\Users\HB\Student.java
+-d
+C:\Users\HB\Student.java\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+C:\Users\HB\Student.java\EmployeePrint.java
+<---- end of javadoc command ---->
+Loading source file C:\Users\HB\Student.java\EmployeePrint.java...
+C:\Users\HB\Student.java\EmployeePrint.java:7: error: <identifier> expected
+       highpaid.setSalary(100000.75);
+                         ^
+C:\Users\HB\Student.java\EmployeePrint.java:7: error: illegal start of type
+       highpaid.setSalary(100000.75);
+                          ^
+C:\Users\HB\Student.java\EmployeePrint.java:8: error: <identifier> expected
+       avgpaid.setSalary(50000.05);
+                        ^
+C:\Users\HB\Student.java\EmployeePrint.java:8: error: illegal start of type
+       avgpaid.setSalary(50000.05);
+                         ^
+C:\Users\HB\Student.java\EmployeePrint.java:9: error: <identifier> expected
+       lowpaid.setSalary(100.25);
+                        ^
+C:\Users\HB\Student.java\EmployeePrint.java:9: error: illegal start of type
+       lowpaid.setSalary(100.25);
+                         ^
+C:\Users\HB\Student.java\EmployeePrint.java:10: error: <identifier> expected
+       highpaid.setActive(true);
+                         ^
+C:\Users\HB\Student.java\EmployeePrint.java:10: error: illegal start of type
+       highpaid.setActive(true);
+                          ^
+C:\Users\HB\Student.java\EmployeePrint.java:11: error: <identifier> expected
+       avgpaid.setActive(true);
+                        ^
+C:\Users\HB\Student.java\EmployeePrint.java:11: error: illegal start of type
+       avgpaid.setActive(true);
+                         ^
+C:\Users\HB\Student.java\EmployeePrint.java:12: error: <identifier> expected
+       lowpaid.setActive(false);
+                        ^
+C:\Users\HB\Student.java\EmployeePrint.java:12: error: illegal start of type
+       lowpaid.setActive(false);
+                         ^
+C:\Users\HB\Student.java\EmployeePrint.java:13: error: <identifier> expected
+       highpaid.printDet();
+                        ^
+C:\Users\HB\Student.java\EmployeePrint.java:14: error: <identifier> expected
+       avgpaid.printDet();
+                       ^
+C:\Users\HB\Student.java\EmployeePrint.java:15: error: <identifier> expected
+       lowpaid.printDet();
+                       ^
+15 errors

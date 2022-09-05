@@ -1,0 +1,28 @@
+create a project Student
+
+packages
+>>student
+>>adminstration
+>>teaching_staff
+>>non_teaching_staff
+>>colleges
+>>hostels
+
+*student classes
+>>registration
+>>fee_payment
+>>class_attendance
+>>hostel
+
+*administration
+>>registration_verification
+>>fee_approval
+>>logins
+>>discontinuation
+>>
+
+*teaching_staff
+>>attendance
+
+
+//you can also have reference the portal or any school management system

@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Student
+comment0.text=\r\nThe\ Student\ classs\ keeps\ track\ of\ the\ following\ pieces\ of\ data\ \r\nabout\ a\ student\:\ the\ student's\ name,\ ID\ number,\ the\ number\ of\ \r\ncredits\ the\ student\ has\ earned\ towards\ graduation,\ and\ whether\ \r\nthe\ student\ is\ paid\ up\ with\ respect\ to\ niversity\ bills.\r\nAll\ of\ this\ information\ is\ entirely\ private\ to\ the\ class.\r\nClient\ s\ can\ obtain\ this\ information\ only\ using\ the\ various\r\nmethods\ defined\ by\ the\ class.\r\n
+comment1.params=name\ id
+comment1.target=Student(java.lang.String,\ int)
+comment1.text=\r\ncreates\ a\ new\ Student\ object\ with\ the\ specified\ name\ and\ ID.\r\n@param\ name\ The\ Student's\ name\ as\ a\ String\r\n@param\ id\ The\ Student's\ ID\ number\ as\ an\ int\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\nThese\ methods\ retrieves\ the\ value\ of\ an\ instance\ \r\nvariable\ and\ are\ called\ getters.\ Because\ the\ \r\nstudent\ name\ and\ ID\ number\ are\ fixed,\ there\ are\ \r\nno\ corresponding\ setters\r\n
+comment3.params=
+comment3.target=int\ getID()
+comment3.text=\r\nGets\ the\ ID\ number\ of\ this\ student.\r\n@return\ the\ ID\ number\ of\ this\ student\r\n
+comment4.params=credits
+comment4.target=void\ setCredits(double)
+comment4.text=\r\nThis\ method\ changes\ the\ value\ of\ an\ instance\ variable\r\n
+comment5.params=
+comment5.target=double\ getCredits()
+comment6.params=flag
+comment6.target=void\ setPaidUp(boolean)
+comment6.text=\r\nSets\ whether\ the\ student\ is\ paid\ up.\r\n@param\ flag\ The\ value\ true\ or\ false\ indicating\ paid-up\ status\r\n
+comment7.params=
+comment7.target=boolean\ isPaidUp()
+comment7.text=\r\n\ Names\ for\ getter\ methods\ usually\ begin\ with\ the\ prefix\ get.\r\n\ The\ only\ exception\ is...\r\n
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment8.text=\r\n\ Creates\ a\ string\ identifying\ this\ student.\r\n\ @return\ The\ string\ used\ to\ display\ this\ student.\r\n
+numComments=9

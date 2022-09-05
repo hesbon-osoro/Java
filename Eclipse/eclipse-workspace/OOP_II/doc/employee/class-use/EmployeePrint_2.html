@@ -1,0 +1,98 @@
+------------------------------------------------------------------------
+-- dqDivideInt.decTest -- decQuad integer division                    --
+-- Copyright (c) IBM Corporation, 1981, 2008.  All rights reserved.   --
+------------------------------------------------------------------------
+-- Please see the document "General Decimal Arithmetic Testcases"     --
+-- at http://www2.hursley.ibm.com/decimal for the description of      --
+-- these testcases.                                                   --
+--                                                                    --
+-- These testcases are experimental ('beta' versions), and they       --
+-- may contain errors.  They are offered on an as-is basis.  In       --
+-- particular, achieving the same results as the tests here is not    --
+-- a guarantee that an implementation complies with any Standard      --
+-- or specification.  The tests are not exhaustive.                   --
+--                                                                    --
+-- Please send comments, suggestions, and corrections to the author:  --
+--   Mike Cowlishaw, IBM Fellow                                       --
+--   IBM UK, PO Box 31, Birmingham Road, Warwick CV34 5JL, UK         --
+--   mfc@uk.ibm.com                                                   --
+------------------------------------------------------------------------
+version: 2.59
+
+extended:    1
+clamp:       1
+precision:   34
+maxExponent: 6144
+minExponent: -6143
+rounding:    half_even
+
+
+dqdvi001 divideint  1     1    ->  1
+dqdvi002 divideint  2     1    ->  2
+dqdvi003 divideint  1     2    ->  0
+dqdvi004 divideint  2     2    ->  1
+dqdvi005 divideint  0     1    ->  0
+dqdvi006 divideint  0     2    ->  0
+dqdvi007 divideint  1     3    ->  0
+dqdvi008 divideint  2     3    ->  0
+dqdvi009 divideint  3     3    ->  1
+
+dqdvi010 divideint  2.4   1    ->  2
+dqdvi011 divideint  2.4   -1   ->  -2
+dqdvi012 divideint  -2.4  1    ->  -2
+dqdvi013 divideint  -2.4  -1   ->  2
+dqdvi014 divideint  2.40  1    ->  2
+dqdvi015 divideint  2.400 1    ->  2
+dqdvi016 divideint  2.4   2    ->  1
+dqdvi017 divideint  2.400 2    ->  1
+dqdvi018 divideint  2.    2    ->  1
+dqdvi019 divideint  20    20   ->  1
+
+dqdvi020 divideint  187   187  ->  1
+dqdvi021 divideint  5     2    ->  2
+dqdvi022 divideint  5     2.0    ->  2
+dqdvi023 divideint  5     2.000  ->  2
+dqdvi024 divideint  5     0.200  ->  25
+dqdvi025 divideint  5     0.200  ->  25
+
+dqdvi030 divideint  1     2      ->  0
+dqdvi031 divideint  1     4      ->  0
+dqdvi032 divideint  1     8      ->  0
+dqdvi033 divideint  1     16     ->  0
+dqdvi034 divideint  1     32     ->  0
+dqdvi035 divideint  1     64     ->  0
+dqdvi040 divideint  1    -2      -> -0
+dqdvi041 divideint  1    -4      -> -0
+dqdvi042 divideint  1    -8      -> -0
+dqdvi043 divideint  1    -16     -> -0
+dqdvi044 divideint  1    -32     -> -0
+dqdvi045 divideint  1    -64     -> -0
+dqdvi050 divideint -1     2      -> -0
+dqdvi051 divideint -1     4      -> -0
+dqdvi052 divideint -1     8      -> -0
+dqdvi053 divideint -1     16     -> -0
+dqdvi054 divideint -1     32     -> -0
+dqdvi055 divideint -1     64     -> -0
+dqdvi060 divideint -1    -2      ->  0
+dqdvi061 divideint -1    -4      ->  0
+dqdvi062 divideint -1    -8      ->  0
+dqdvi063 divideint -1    -16     ->  0
+dqdvi064 divideint -1    -32     ->  0
+dqdvi065 divideint -1    -64     ->  0
+
+-- similar with powers of ten
+dqdvi160 divideint  1     1         ->  1
+dqdvi161 divideint  1     10        ->  0
+dqdvi162 divideint  1     100       ->  0
+dqdvi163 divideint  1     1000      ->  0
+dqdvi164 divideint  1     10000     ->  0
+dqdvi165 divideint  1     100000    ->  0
+dqdvi166 divideint  1     1000000   ->  0
+dqdvi167 divideint  1     10000000  ->  0
+dqdvi168 divideint  1     100000000 ->  0
+dqdvi170 divideint  1    -1         -> -1
+dqdvi171 divideint  1    -10        -> -0
+dqdvi172 divideint  1    -100       -> -0
+dqdvi173 divideint  1    -1000      -> -0
+dqdvi174 divideint  1    -10000     -> -0
+dqd

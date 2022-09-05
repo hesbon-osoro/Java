@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Employee
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Employee\ here.\r\n\r\n\ @author\ (your\ Wazimu)\r\n\ @version\ (8/10/2019)\r\nThe\ Employee\ class\ keeps\ track\ of\ the\ following\ information\r\nabout\ the\ employee;\ Employee's\ Name,\ Number\ indicating\ \r\n\ order\ in\ which\ the\ employee\ was\ hired,\ a\ flag\ indicating\ \r\n\ whether\ the\ employee\ is\ still\ active\ and\ the\ Salary\ (a\ number\r\n\ that\ may\ contain\ decimal\ fraction).\r\n
+comment1.params=name\ order_Id
+comment1.target=Employee(java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\nGets\ the\ name\ of\ the\ Employee\r\n@return\ the\ name\ of\ the\ employee\r\n
+comment3.params=
+comment3.target=int\ getOrderID()
+comment3.text=\r\nGets\ the\ Id\ for\ the\ order\ of\ employee\ being\ hired\r\n@return\ The\ Order\ ID\ of\ the\ employee\r\n
+comment4.params=flag
+comment4.target=void\ setActive(boolean)
+comment4.text=\r\n\ Sets\ a\ flag\ indicating\ whether\ employee\ is\ still\ active\r\n\ @param\ flag\ value\ is\ true\ if\ employee\ is\ active\ and\ false\ otherwise.\r\n
+comment5.params=
+comment5.target=boolean\ isActive()
+comment5.text=\r\n\ Returns\ the\ value\ true\ or\ false\ depending\ on\ whether\ the\ employee\ is\r\n\ active\ or\ not.\r\n\ @return\ Whether\ employee\ is\ active\r\n
+comment6.params=salary
+comment6.target=void\ setSalary(double)
+comment6.text=\r\n\ Sets\ the\ employees\ salary\ of\ type\ double\r\n\ @param\ salary\ The\ employees\ salary\r\n
+comment7.params=
+comment7.target=double\ getSalary()
+comment7.text=\r\n\ Gets\ the\ employees\ salary\ value\r\n\ @return\ The\ Salary\ of\ the\ employee\r\n
+comment8.params=
+comment8.target=void\ printDet()
+comment8.text=Prints\ the\ String\ output\ on\ the\ screen
+numComments=9
