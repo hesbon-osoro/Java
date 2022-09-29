@@ -1,4 +1,4 @@
-A simple shooting game
+/*A simple shooting game*/
 
 /*
 Essential Java 3D Fast
